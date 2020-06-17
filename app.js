@@ -5,9 +5,9 @@ const mysqlconnection=require('./connect')
  
 var fetchroutes = require('./routes/fetch.js');
 app.use('/fetch', fetchroutes);
-app.get('/print',(req,res)=>{
-res.send('smile');
-});
+// app.get('/print',(req,res)=>{
+// res.send('smile');
+//});
 app.listen('3000',()=>{
     console.log('hey,its working....');
 });

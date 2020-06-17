@@ -3,7 +3,10 @@ var router = express.Router();
 const mysql = require('mysql');
 var db = require('../connect');
 
-//insert data
+
+
+
+//insert data into database
 router.post('/insertdata', (req, res) => {
     var data  = req.query.Value;
    
